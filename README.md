@@ -406,13 +406,6 @@ COPY . .
 CMD ["streamlit", "run", "app.py"]
 ```
 
-## 📖 Documentation
-
-- **[API Documentation](docs/API.md)** - Detailed module documentation
-- **[User Guide](docs/USER_GUIDE.md)** - Dashboard usage guide
-- **[Developer Guide](docs/DEVELOPER.md)** - Extension guide
-- **[Configuration](docs/CONFIG.md)** - Setup and customization
-
 ## 🤝 Contributing
 
 Contributions are welcome! Areas for improvement:
@@ -422,38 +415,5 @@ Contributions are welcome! Areas for improvement:
 - [ ] Integration with SCADA systems
 - [ ] Multi-campus support
 - [ ] Advanced visualization
-
-## 📞 Support
-
-For issues or questions:
-1. Check the troubleshooting section below
-2. Review the documentation in `/docs`
-3. Contact the development team
-
-## 🔧 Troubleshooting
-
-### "FAISS not available" warning
-**Solution**: FAISS is optional. The system falls back to keyword search.
-```bash
-pip install faiss-cpu  # or faiss-gpu for GPU support
-```
-
-### "IBM Watsonx credentials not configured"
-**Solution**: System runs in mock mode. To use real IBM LLM:
-```bash
-# Set environment variables
-export IBM_WATSONX_API_KEY=your_key
-export IBM_PROJECT_ID=your_project_id
-```
-
-### CSV parsing errors
-**Solution**: Ensure CSV has required columns: `date`, `consumption_kwh` or `consumption_gallons`, `facility`
-
-### Port already in use
-**Solution**: Run on different port
-```bash
-streamlit run app.py --server.port 8502
-```
-
 
 *Built with ❤️ for a sustainable future*
