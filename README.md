@@ -455,40 +455,5 @@ export IBM_PROJECT_ID=your_project_id
 streamlit run app.py --server.port 8502
 ```
 
-## 📄 License
-
-This project is provided as-is for educational and internship purposes.
-
-## 📝 Citation
-
-If you use EcoSense AI in your work, please cite:
-```
-EcoSense AI – Invisible Resource Loss Detection System for Sustainable Campuses
-Student: Loki
-Institution: [Your College]
-Year: 2024
-```
-
-## 🎓 Internship Project Details
-
-**Project Type**: Internship Final Project (AI + Sustainability)
-**Duration**: [Project Duration]
-**Student**: Loki
-**College**: [Your College Name]
-**Mentor**: [Mentor Name]
-
-### Learning Outcomes
-
-Through this project, students learn:
-- ✅ Data analysis and pattern detection
-- ✅ LLM integration and prompt engineering
-- ✅ RAG implementation and vector search
-- ✅ Full-stack web application development
-- ✅ Responsible AI design and deployment
-- ✅ Stakeholder communication and reporting
-
----
-
-**EcoSense AI** - Making Campus Sustainability Visible, Understandable, and Actionable
 
 *Built with ❤️ for a sustainable future*
